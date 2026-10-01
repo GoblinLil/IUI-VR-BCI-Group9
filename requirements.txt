@@ -1,6 +1,0 @@
-numpy
-pygame-ce
-pylsl
-pyserial
-scikit_learn
-scipy
