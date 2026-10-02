@@ -190,7 +190,6 @@ def main():
         running = True
         won = False
         while running and (not won):
-            ctrl.pos_rc = maze.goal
 
             dt = clock.tick(60) / 1000.0
 
