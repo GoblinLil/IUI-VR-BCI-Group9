@@ -197,6 +197,7 @@ def main():
         ui.frame_idx = 0
         running = True
         won = False
+        skip_level = False
         while running and (not won):
 
             dt = clock.tick(60) / 1000.0
@@ -206,6 +207,11 @@ def main():
                     running = False
                 elif ev.type == pg.KEYDOWN and ev.key == pg.K_ESCAPE:
                     running = False
+                # skip level if letter n is pressed
+                elif ev.type == pg.KEYDOWN and ev.key == pg.K_n:
+                    skip_level = True
+                    print("Skipping level...")
+                    break
 
             ctrl.update(dt)
 
@@ -226,33 +232,35 @@ def main():
                 small_font = pg.font.SysFont("consolas", 18)
                 message = font.render("WELOME TO THE GAME", True, "white")
                 hint = small_font.render("Your goal is to get the duck, moving by focusing on the flashing arrows.", True, "white")
-                alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width()) + 40,
-                                message.get_height() + hint.get_height() + 40)
+                skip_hint = small_font.render('If you are stuck, press button "n" to skip the level', True, "white")
+                alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width(), skip_hint.get_width()) + 40,
+                                message.get_height() + hint.get_height() + skip_hint.get_height() + 50)
                 alert.center = surf.get_rect().center
                 pg.draw.rect(surf, "darkgreen", alert)
-                surf.blit(message, message.get_rect(center=(alert.centerx, alert.top + 30)))
-                surf.blit(hint, hint.get_rect(center=(alert.centerx, alert.bottom - 25)))
+                surf.blit(message, message.get_rect(center=(alert.centerx, alert.top + 25)))
+                surf.blit(hint, hint.get_rect(center=(alert.centerx, alert.top + message.get_height() + 35)))
+                surf.blit(skip_hint, skip_hint.get_rect(center=(alert.centerx, alert.bottom - 25)))
                 pg.display.flip()
                 time.sleep(8)
 
-            #TODO: Add handle for when a game is won (player on exit).
-            if ctrl.pos_rc[0] == maze.goal[0] and ctrl.pos_rc[1] == maze.goal[1]:
-                print("You won the maze!")
-
-                font = pg.font.SysFont("consolas", 32)
-                message = font.render("Maze won!", True, "white")
-                alert = pg.Rect(0, 0, message.get_width() + 40, message.get_height() + 30)
-                alert.center = surf.get_rect().center
-                pg.draw.rect(surf, "darkgreen", alert)
-                surf.blit(message, message.get_rect(center=alert.center))
-                pg.display.flip()
+            if (ctrl.pos_rc[0] == maze.goal[0] and ctrl.pos_rc[1] == maze.goal[1]) or skip_level:
+                if (not skip_level):
+                    print("You won the maze!")
+                    font = pg.font.SysFont("consolas", 32)
+                    message = font.render("Maze won!", True, "white")
+                    alert = pg.Rect(0, 0, message.get_width() + 40, message.get_height() + 30)
+                    alert.center = surf.get_rect().center
+                    pg.draw.rect(surf, "darkgreen", alert)
+                    surf.blit(message, message.get_rect(center=alert.center))
+                    pg.display.flip()
+                    print("Loading next maze in 3 seconds...")
+                    time.sleep(4)
 
                 # add logic for the user to choose if they want to continue playing?
                 # if no, then set running to false.
                 # if yes:
-                print("Loading next maze in 3 seconds...")
-                time.sleep(4)
                 
+                skip_level = False
                 maze_number += 1
                 maze_path = maze_path[:-5] + str(maze_number) + ".txt"
                 won = True 
