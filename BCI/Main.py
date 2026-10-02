@@ -220,6 +220,20 @@ def main():
 
             pg.display.flip()
             ui.frame_idx += 1
+            if ui.frame_idx == 1 and maze_number == 0:
+                # help window
+                font = pg.font.SysFont("consolas", 32)
+                small_font = pg.font.SysFont("consolas", 18)
+                message = font.render("WELOME TO THE GAME", True, "white")
+                hint = small_font.render("Your goal is to get the duck, moving by focusing on the flashing arrows.", True, "white")
+                alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width()) + 40,
+                                message.get_height() + hint.get_height() + 40)
+                alert.center = surf.get_rect().center
+                pg.draw.rect(surf, "darkgreen", alert)
+                surf.blit(message, message.get_rect(center=(alert.centerx, alert.top + 30)))
+                surf.blit(hint, hint.get_rect(center=(alert.centerx, alert.bottom - 25)))
+                pg.display.flip()
+                time.sleep(8)
 
             #TODO: Add handle for when a game is won (player on exit).
             if ctrl.pos_rc[0] == maze.goal[0] and ctrl.pos_rc[1] == maze.goal[1]:
