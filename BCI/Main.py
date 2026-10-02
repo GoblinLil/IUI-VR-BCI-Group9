@@ -199,6 +199,7 @@ def main():
         won = False
         skip_level = False
         while running and (not won):
+            debug_vector = ''
 
             dt = clock.tick(60) / 1000.0
 
@@ -213,7 +214,17 @@ def main():
                     print("Skipping level...")
                     break
 
-            ctrl.update(dt)
+            pressed = pg.key.get_pressed()
+            if pressed[pg.K_UP]:
+                debug_vector = "N"
+            elif pressed[pg.K_DOWN]:
+                debug_vector = "S"
+            elif pressed[pg.K_LEFT]:
+                debug_vector = "W"
+            elif pressed[pg.K_RIGHT]:
+                debug_vector = "E"
+
+            ctrl.update(dt,debug_vector)
 
             # draw frame
             ui.draw(
@@ -231,7 +242,7 @@ def main():
                 font = pg.font.SysFont("consolas", 32)
                 small_font = pg.font.SysFont("consolas", 18)
                 message = font.render("WELOME TO THE GAME", True, "white")
-                hint = small_font.render("Your goal is to get the duck, moving by focusing on the flashing arrows.", True, "white")
+                hint = small_font.render("Your goal is to get the duck to the exit square, moving by focusing on the flashing arrows.", True, "white")
                 skip_hint = small_font.render('If you are stuck, press button "n" to skip the level', True, "white")
                 alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width(), skip_hint.get_width()) + 40,
                                 message.get_height() + hint.get_height() + skip_hint.get_height() + 50)
