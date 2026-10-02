@@ -127,13 +127,14 @@ def load_maze(surf, bci, maze_path):
 
     # Compute cell size to maximize maze height, while keeping at least
     # Config.MIN_SIDEBAR_PX of width for the arrow sidebar.
+
     cell_px_h = screen_h // maze.rows
-    cell_px_w = max(1, (screen_w - MIN_SIDEBAR_PX) // maze.cols)
+    cell_px_w = max(1, (screen_w - 2 * MIN_SIDEBAR_PX) // maze.cols)
     cell_px = max(1, min(cell_px_h, cell_px_w))
 
-    # recompute actual sidebar to fill remaining width exactly
+    # split the leftover width evenly -> maze gets centered between two panels
     maze_w = maze.cols * cell_px
-    sidebar_px = max(MIN_SIDEBAR_PX, screen_w - maze_w)
+    sidebar_px = max(MIN_SIDEBAR_PX, (screen_w - maze_w) // 2)
 
     # ---- setup UI and Controller objects ----
     ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
@@ -178,12 +179,13 @@ def main():
     # Compute cell size to maximize maze height, while keeping at least
     # Config.MIN_SIDEBAR_PX of width for the arrow sidebar.
     cell_px_h = screen_h // maze.rows
-    cell_px_w = max(1, (screen_w - MIN_SIDEBAR_PX) // maze.cols)
+    cell_px_w = max(1, (screen_w - 2 * MIN_SIDEBAR_PX) // maze.cols)
     cell_px = max(1, min(cell_px_h, cell_px_w))
 
-    # recompute actual sidebar to fill remaining width exactly
+    # split the leftover width evenly -> maze gets centered between two panels
     maze_w = maze.cols * cell_px
-    sidebar_px = max(MIN_SIDEBAR_PX, screen_w - maze_w)
+    sidebar_px = max(MIN_SIDEBAR_PX, (screen_w - maze_w) // 2)
+
 
     # ---- setup UI and Controller objects ----
     ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
