@@ -141,6 +141,7 @@ CHECKER2         = (0, 0, 0)        # arrow checker-pattern color 2
 
 REFRESH_HZ = 60  # assumed display refresh rate (see FlashableIcon.py)
 
+#TODO: Check if change of hz values improves the performence.
 DIRECTIONS = {
     "N": {"vector": (-1, 0), "hz": 4.29,   "threshold": 0.80},  # -> 14  frames
     "W": {"vector": (0, -1), "hz": 6,    "threshold": 0.80},  # -> 10 frames
