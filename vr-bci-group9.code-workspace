@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "BCI",
+			"name": "BCI - the python maze"
+		},
+		{
+			"path": "VR",
+			"name": "VR - the unity office"
+		}
+	],
+	"settings": {}
+}
