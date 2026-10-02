@@ -53,7 +53,7 @@ class Controller:
             return True
         return False
 
-    def handle_bci(self, dt):
+    def handle_bci(self, dt, debug_vector):
         """Poll the BCI source (if any) and apply a move if one is ready."""
         if not self.bci:
             return
@@ -62,14 +62,16 @@ class Controller:
             return
 
         d = self.bci.poll_direction()  # 'N', 'E', 'S', 'W', or '' (nothing detected)
-        if not d:
+        print(f"BCI polled: {d}")
+        if not d and not debug_vector:
             return
-
+        if debug_vector:
+            d = debug_vector
         self.armed_dir = d  # remember it so UI.py can highlight the matching arrow
         if self._try_step(d):
             self._cd_left = self._move_cooldown
 
-    def update(self, dt):
+    def update(self, dt, debug_vector):
         """Advance game state by `dt` seconds. Call once per frame from Main.py."""
         self.elapsed_time += dt
-        self.handle_bci(dt)
+        self.handle_bci(dt,debug_vector)
