@@ -117,6 +117,29 @@ class BCIListener:
 # END DO NOT EDIT
 # ---------------------------------------------------------------------------
 
+def load_maze(surf, bci, maze_path):
+    # --- load maze from file (change which maze loads via Config.MAZE_PATH) ---
+    lines = read_ascii_maze(maze_path)
+    maze = Maze(lines)
+
+        # Use the *actual drawable surface* size for all layout math
+    screen_w, screen_h = surf.get_size()
+
+    # Compute cell size to maximize maze height, while keeping at least
+    # Config.MIN_SIDEBAR_PX of width for the arrow sidebar.
+    cell_px_h = screen_h // maze.rows
+    cell_px_w = max(1, (screen_w - MIN_SIDEBAR_PX) // maze.cols)
+    cell_px = max(1, min(cell_px_h, cell_px_w))
+
+    # recompute actual sidebar to fill remaining width exactly
+    maze_w = maze.cols * cell_px
+    sidebar_px = max(MIN_SIDEBAR_PX, screen_w - maze_w)
+
+    # ---- setup UI and Controller objects ----
+    ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
+    ctrl = Controller(maze, cell_px=cell_px, bci=bci)
+    return ui, ctrl
+
 
 def main():
     bci = BCIListener(name="BCI_FREQ", stype="BCI")  # listens for float Hz
@@ -126,6 +149,7 @@ def main():
     # --- load maze from file (change which maze loads via Config.MAZE_PATH) ---
     lines = read_ascii_maze(MAZE_PATH)
     maze = Maze(lines)
+    # delete 3 lines above to use load_maze
 
     # --- pygame / window ---
     pg.init()
@@ -146,6 +170,8 @@ def main():
         h = max(600, info.current_h - 120)
         surf = pg.display.set_mode((w, h), flags)
 
+    # remove from here to load_maze to use the load_maze function
+    
     # Use the *actual drawable surface* size for all layout math
     screen_w, screen_h = surf.get_size()
 
@@ -162,6 +188,8 @@ def main():
     # ---- setup UI and Controller objects ----
     ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
     ctrl = Controller(maze, cell_px=cell_px, bci=bci)
+
+    #ui,ctrl = load_maze(surf, bci, maze)
 
     ui.frame_idx = 0
     running = True
@@ -187,6 +215,8 @@ def main():
 
         pg.display.flip()
         ui.frame_idx += 1
+
+        #TODO: Add handle for when a game is won (player on exit).
 
     # teardown
     pg.quit()
