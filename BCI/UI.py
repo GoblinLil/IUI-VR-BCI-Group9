@@ -126,7 +126,8 @@ class UI:
 
         # 3. draw each one
         frame = getattr(self, "frame_idx", 0)
-        draw_labels = self.sidebar_px >= 120  # hide labels if the sidebar is too narrow for them
+        #draw_labels = self.sidebar_px >= 120  # hide labels if the sidebar is too narrow for them
+        draw_labels = False
         label_dx = size + 8  # how far right of the arrow the label sits
         for d, cy, cx in zip(dirs, ys, xs):
             self._draw_one_arrow(d, cx, cy, size, frame, is_armed=(armed_dir == d),
@@ -219,7 +220,7 @@ class UI:
         # it onto the fill so only the arrow-shaped pixels survive (this
         # is called "masking").
         poly = self._arrow_polygon(d, (size, size), size)  # centered on the fill surface
-        mask = pg.Surface((size * 2, size * 2), pg.SRCALPHA)
+        mask = pg.Surface((size * 3, size * 2), pg.SRCALPHA)
         mask.fill((0, 0, 0, 0))
         pg.draw.polygon(mask, (255, 255, 255, 255), poly)
         fill_surf.blit(mask, (0, 0), None, pg.BLEND_RGBA_MULT)
