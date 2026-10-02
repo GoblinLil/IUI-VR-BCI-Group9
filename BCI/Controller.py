@@ -68,7 +68,6 @@ class Controller:
         self.armed_dir = d  # remember it so UI.py can highlight the matching arrow
         if self._try_step(d):
             self._cd_left = self._move_cooldown
-        #TODO: Add handle for when a game is won (player on exit).
 
     def update(self, dt):
         """Advance game state by `dt` seconds. Call once per frame from Main.py."""
