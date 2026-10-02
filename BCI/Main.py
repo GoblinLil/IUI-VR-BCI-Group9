@@ -117,10 +117,8 @@ class BCIListener:
 # END DO NOT EDIT
 # ---------------------------------------------------------------------------
 
-def load_maze(surf, bci, maze_path):
+def load_maze(surf, bci, maze):
     # --- load maze from file (change which maze loads via Config.MAZE_PATH) ---
-    lines = read_ascii_maze(maze_path)
-    maze = Maze(lines)
 
         # Use the *actual drawable surface* size for all layout math
     screen_w, screen_h = surf.get_size()
@@ -142,14 +140,10 @@ def load_maze(surf, bci, maze_path):
 
 
 def main():
+    maze_path = MAZE_PATH
     bci = BCIListener(name="BCI_FREQ", stype="BCI")  # listens for float Hz
 
     clock = pg.time.Clock()
-
-    # --- load maze from file (change which maze loads via Config.MAZE_PATH) ---
-    lines = read_ascii_maze(MAZE_PATH)
-    maze = Maze(lines)
-    # delete 3 lines above to use load_maze
 
     # --- pygame / window ---
     pg.init()
@@ -171,53 +165,78 @@ def main():
         surf = pg.display.set_mode((w, h), flags)
 
     # remove from here to load_maze to use the load_maze function
-    
-    # Use the *actual drawable surface* size for all layout math
-    screen_w, screen_h = surf.get_size()
-
-    # Compute cell size to maximize maze height, while keeping at least
-    # Config.MIN_SIDEBAR_PX of width for the arrow sidebar.
-    cell_px_h = screen_h // maze.rows
-    cell_px_w = max(1, (screen_w - MIN_SIDEBAR_PX) // maze.cols)
-    cell_px = max(1, min(cell_px_h, cell_px_w))
-
-    # recompute actual sidebar to fill remaining width exactly
-    maze_w = maze.cols * cell_px
-    sidebar_px = max(MIN_SIDEBAR_PX, screen_w - maze_w)
-
-    # ---- setup UI and Controller objects ----
-    ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
-    ctrl = Controller(maze, cell_px=cell_px, bci=bci)
-
-    #ui,ctrl = load_maze(surf, bci, maze)
-
-    ui.frame_idx = 0
+    maze_number = 0
     running = True
     while running:
-        dt = clock.tick(60) / 1000.0
+        try:
+            lines = read_ascii_maze(maze_path)
+        except OSError as e:
+            print(f"[Maze] Unable to read maze file '{maze_path}': {e}")
+            running = False
+            font = pg.font.SysFont("consolas", 32)
+            message = font.render("Maze won all mazes!", True, "white")
+            alert = pg.Rect(0, 0, message.get_width() + 40, message.get_height() + 30)
+            alert.center = surf.get_rect().center
+            pg.draw.rect(surf, "darkgreen", alert)
+            surf.blit(message, message.get_rect(center=alert.center))
+            pg.display.flip()
+            time.sleep(3)
+            break
 
-        for ev in pg.event.get():
-            if ev.type == pg.QUIT:
-                running = False
-            elif ev.type == pg.KEYDOWN and ev.key == pg.K_ESCAPE:
-                running = False
+        maze = Maze(lines)  
+        ui,ctrl = load_maze(surf, bci, maze)
+        
+        ui.frame_idx = 0
+        running = True
+        won = False
+        while running and (not won):
+            ctrl.pos_rc = maze.goal
 
-        ctrl.update(dt)
+            dt = clock.tick(60) / 1000.0
 
-        # draw frame
-        ui.draw(
-            maze,
-            ctrl.pos_rc,
-            ctrl.armed_dir,
-            steps=ctrl.step_count,
-            elapsed_s=ctrl.elapsed_time
-        )
+            for ev in pg.event.get():
+                if ev.type == pg.QUIT:
+                    running = False
+                elif ev.type == pg.KEYDOWN and ev.key == pg.K_ESCAPE:
+                    running = False
 
-        pg.display.flip()
-        ui.frame_idx += 1
+            ctrl.update(dt)
 
-        #TODO: Add handle for when a game is won (player on exit).
+            # draw frame
+            ui.draw(
+                maze,
+                ctrl.pos_rc,
+                ctrl.armed_dir,
+                steps=ctrl.step_count,
+                elapsed_s=ctrl.elapsed_time
+            )
 
+            pg.display.flip()
+            ui.frame_idx += 1
+
+            #TODO: Add handle for when a game is won (player on exit).
+            if ctrl.pos_rc[0] == maze.goal[0] and ctrl.pos_rc[1] == maze.goal[1]:
+                print("You won the maze!")
+
+                font = pg.font.SysFont("consolas", 32)
+                message = font.render("Maze won!", True, "white")
+                alert = pg.Rect(0, 0, message.get_width() + 40, message.get_height() + 30)
+                alert.center = surf.get_rect().center
+                pg.draw.rect(surf, "darkgreen", alert)
+                surf.blit(message, message.get_rect(center=alert.center))
+                pg.display.flip()
+
+                # add logic for the user to choose if they want to continue playing?
+                # if no, then set running to false.
+                # if yes:
+                print("Loading next maze in 3 seconds...")
+                time.sleep(4)
+                
+                maze_number += 1
+                maze_path = maze_path[:-5] + str(maze_number) + ".txt"
+                won = True 
+
+    
     # teardown
     pg.quit()
 
