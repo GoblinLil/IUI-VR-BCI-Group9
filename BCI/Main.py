@@ -174,13 +174,21 @@ def main():
             print(f"[Maze] Unable to read maze file '{maze_path}': {e}")
             running = False
             font = pg.font.SysFont("consolas", 32)
-            message = font.render("Maze won all mazes!", True, "white")
-            alert = pg.Rect(0, 0, message.get_width() + 40, message.get_height() + 30)
+            small_font = pg.font.SysFont("consolas", 18)
+            message = font.render("You have won all mazes!", True, "white")
+            hint = small_font.render("Press Enter to exit the game", True, "white")
+            alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width()) + 40,
+                            message.get_height() + hint.get_height() + 40)
             alert.center = surf.get_rect().center
             pg.draw.rect(surf, "darkgreen", alert)
-            surf.blit(message, message.get_rect(center=alert.center))
+            surf.blit(message, message.get_rect(center=(alert.centerx, alert.top + 30)))
+            surf.blit(hint, hint.get_rect(center=(alert.centerx, alert.bottom - 25)))
             pg.display.flip()
-            time.sleep(3)
+            while True:
+                for ev in pg.event.get():
+                    if ev.type == pg.QUIT or (ev.type == pg.KEYDOWN and ev.key == pg.K_RETURN):
+                        pg.quit()
+                        break
             break
 
         maze = Maze(lines)  
@@ -190,7 +198,6 @@ def main():
         running = True
         won = False
         while running and (not won):
-            ctrl.pos_rc = maze.goal
 
             dt = clock.tick(60) / 1000.0
 
