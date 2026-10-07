@@ -1,0 +1,823 @@
+Assets/Matro/Dust.mat
+Assets/Matro/sparkle.png
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/AxisMesh.asset
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/HandsDefaultMaterial.mat
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/HighFidelity.mat
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/HighFidelity.png
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/MaterialPipelineHandler.asset
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/TransparentRed.mat
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Materials/TransparentRed.png
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Models/LeftHand.fbx
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Models/LeftHandAndroidXR.fbx
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Models/RightHand.fbx
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Models/RightHandAndroidXR.fbx
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Prefabs/Hand Debug Visualizer.prefab
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Prefabs/Joint.prefab
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Prefabs/Right Hand Tracking.prefab
+Assets/Samples/XR Hands/1.9.0/HandVisualizer/Prefabs/VelocityPrefab.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/AffordanceThemes/ControllerPokeSphereScale.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/AffordanceThemes/HighlightStrengthInteraction.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/AffordanceThemes/PokeSphereColor.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Audio/Button Pop.wav
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Materials/Concrete Dark Blue.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Materials/Concrete Grey.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Materials/Concrete Light Blue.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Materials/Lit White.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Materials/MaterialPipelineHandler.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Blaster.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Blaster_Long.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Tapered_Cylinder.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Torus.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/Primitive_Torus_Cut.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Models/PushButton.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Climb/Climb Sample.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Climb/ClimbTeleportReticle.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Climb/Climbing Wall.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Climb/Ladder.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Climb/Multi Floor Ladder.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Climb/Single Floor Ladder.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Far Grab Samples.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Gaze Interactables.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/GazeActivationZone.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables Sample.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser-Long.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Confetti.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Cube.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Cylinder.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Pot.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Push Button.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Torus-Cut.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Interactables/Torus.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/InteractionAffordance.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Poke Interactions Sample.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Anchor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Area.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/Teleportation Environment.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI Sample.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/Dropdown.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/Icon Button.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/Icon Toggle.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/Interactive Controls.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/MinMaxSlider.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/ModalSingleButton.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/Scroll UI Sample.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/Text Toggle.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Prefabs/UI/TextButton.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Settings/GazeTeleportAnchorFilter.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Settings/TeleportDestinationSettings.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Asset.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Checkmark.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Circle_60x60 Outline 4.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Circle_60x60_Horizontal.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Forward.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/LegibilityMask.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Round Radius 4 Outline.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/DemoAssets/Sprites/Round Radius 4.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Controller_Grey.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Controller_White.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Flat Blue.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/FresnelHighlight.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Interactable.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/MaterialPipelineHandler.asset
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Telport Anchor.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Telport Area.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/UI-NoZTest.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Models/BlinkVisual.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Models/Pinch_Pointer_LOD0.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Models/Primitive_Cylinder.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Models/Primitive_Wedge.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Models/Reticle_Torus.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Models/UniversalController.fbx
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Affordances/PokePointerAffordance.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Permissions Manager.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Textures/DefaultMaterial_AO.png
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/TunnelingVignette/TunnelingVignette.mat
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/TunnelingVignette/TunnelingVignette.prefab
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx
+Assets/XRI/Settings/Resources/XRInteractionRuntimeSettings.asset
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/affordance-receiver.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/affordance-state-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/affordance-theme-color.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-annotation-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-gesture-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-interaction-ray-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-placement-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-rotation-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-scale-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-selection-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-transformer.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ar-translation-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/audio-affordance-receiver.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/bezier-curve-illustration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/button-click-handlers.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/character-controller-driver.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/climb-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/climb-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/climb-teleport-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/cone-cast-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/continuous-move-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/continuous-turn-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/demo-scene.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/gesture-action-map.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/grab-move-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/gravity-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/haptic-impulse-player.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/hover-and-select-zones-with-collider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/hover-filter-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/input-action-manager.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/input-asset-search.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/installation-add-package-by-name.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/installation-prompt-input-backends.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-dynamic-attach-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-events-callback-example.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-filters-config.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-gaze-config.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-grab-transformers-config.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-move-type-instantaneous-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-move-type-kinematic-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-move-type-velocity-tracking-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-throw-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interactable-track-prs-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interaction-debugger.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interaction-layer-mask-updater.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interaction-layer-settings.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/interaction-strength-filter-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/jump-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/legacy-ir-example.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/locomotion-mediator.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/locomotion-setup-xr-origin-components.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/locomotion-system.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/materials-for-poke-states.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/near-far-far-casting-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/near-far-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/near-far-near-casting-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/near-far-selection-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/offset-rect-transform.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-angle-threshold-property.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-angle-threshold.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-example-scene.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-follow-affordance-properties.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-follow-affordance.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-follow-transform-at-top-of-push-button.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-interactable-components.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-interactable-hover-events.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-interactable-select-events.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-interactable-state-events.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/poke-select-surface-at-pressed-distance.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/preset-manager.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/project-settings-enable-system-keyboard.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/project-wide-actions.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/raycast-configuration-bezier-curve.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/raycast-configuration-projectile-curve.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/raycast-configuration-straight-line.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/raycast-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-compact.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-input-action-reference.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-input-action.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-manual-value.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-multiline-all.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-multiline-effective.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-object-reference.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/reader-unused.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-default-input-actions-asset.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-default-input-actions-preset.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-device-simulator-prefab.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-demo-scene-layout.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-demo-scene-preview.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-demo-scene.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-missing-packages.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-openxr-hand-subsystem.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-project-validation-visualizer.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-project-validation-xri.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-hands-project-validation.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-spatial-keyboard-display.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-spatial-keyboard-key.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-spatial-keyboard-keyboard.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sample-spatial-keyboard-multiple-layouts.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/scaled-poke-canvas.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/screen-space-pinch-scale-input.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/screen-space-ray-pose-driver.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/screen-space-rotate-input.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/screen-space-select-input.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/select-filter-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/simple-audio-feedback.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/simple-haptic-feedback.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/snap-turn-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/sphere-cast-options.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/starting-3d-button-object.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/starting-pokeable-button-prefab.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/starting-pokeable-ugui-canvas-button.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/starting-pokeable-ui-toolkit-button-document.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/teleportation-anchor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/teleportation-area.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/teleportation-multi-anchor-volume.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/teleportation-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/tmp-input-field-keyboard-settings.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/touchscreen-gesture-input-loader.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/touchscreen-hover-filter.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/tracked-device-graphic-raycaster.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/tunneling-vignette-controller.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/tunneling-vignette-hemisphere-scene.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/two-handed-grab-move-provider.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ugui-button-poke-follow-affordance-properties.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ui-canvas-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ui-event-system-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/ui-toolkit-input-field-keyboard-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/upgrade-guide/input-actions-import-error-fix.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/upgrade-guide/input-actions-import-error.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/upgrade-guide/namespace-updater.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/upgrade-guide/package-manager-upgrade.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-body-transformer.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-controller-action-based.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-controller-device-based.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-controller-recorder.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-automatic.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-install1.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-install2.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-keybindings1.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-keybindings2.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-keybindings3.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-keybindings4.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-setup1.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator-setup2.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-device-simulator/xr-device-simulator.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-direct-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-gaze-assistance.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-gaze-config.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-gaze-fallback.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-gaze-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-gaze-tracked-pose-driver.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-grab-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-hand-skeleton-poke-displacer.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-input-modality-manager.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interactable-snap-volume.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-group.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-manager.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator-ref.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/starter-assets-install.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-automatic.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-install.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-keybindings1.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-keybindings2.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-keybindings3.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-keybindings4.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator1.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator2.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-interaction-simulator3.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interaction-simulator/xr-origin-xr-rig-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interactor-line-visual.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-interactor-reticle-visual.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-origin.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-poke-interactor-properties-click-on-down.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-poke-interactor-properties-enable-ui.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-poke-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-ar-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-audio-events.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-bezier-curve.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-controller-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-haptic-events.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-input-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-manipulate-attach-transform.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-projectile-curve.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-raycast-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-selection-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-straight-line.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ray-ui-interaction.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-screen-space-controller.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-simple-interactable.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-socket-interactor.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-target-filter-curve-inverted.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-target-filter-curve.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-target-filter-debugger.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-target-filter-setup.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-tint-interactable-visual.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-transform-stabilizer.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-base-world-space-panel.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-panel-input-configuration.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-panel-settings.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-poke-world-space-panel.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-ui-builder.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-ui-document.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-toolkit-ui-input-module-setting.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xr-ui-world-space-ui-sample.png
+Packages/com.unity.xr.interaction.toolkit/Documentation~/images/xri-default-input-actions.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Materials/InteractableMat.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_Arch.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_Cube_Debug.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_RoundCube.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_Torus.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Models/Primitive_Wedge.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Arch.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Cube.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Cylinder.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Debug Cube.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Pyramid.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Torus.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Prefabs/Wedge.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Button - Circular BG.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Highlight.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Radius - 4px.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Square BG.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Create.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Delete.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Arch.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Cylinder.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Debug Cube.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Pyramid.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Rounded Cube.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Torus.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Wedge.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/Prefabs/AR Feathered Plane.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/Prefabs/XR Origin (AR Rig).prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/AR Starter Assets/Textures/PlanePatternDot.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/FingerColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/HandEdgeColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/InteractionColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/PinchPointColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/PinchPointEdgeStrength.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/PinchPointHighlightColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/PinchPointLocalTransformOffset.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/AffordanceThemes/PinchPointUniformScaleScale.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DatumPresets/Menu Controller Follow Preset.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DatumPresets/Menu Hands Follow Preset.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DatumPresets/Under Watch Controller Follow Preset.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DatumPresets/Under Watch Hands Follow Preset.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/Anchor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/Audio.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/BlendShapeValue.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/CapsuleScale.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/ChessPieceColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/LargeScale.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/Scale.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Affordances/TeleportInteractionColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Audio/ButtonClick.wav
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Audio/ButtonHover.wav
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Audio/TeleportSelection.wav
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/AccentButton.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ArtSphereShadowCaster.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner1.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner2.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner3.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner4.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/BlockingTeleportReticle.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Blue Anchor Arrow.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/BrushedMetal.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ChessPiece.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Chrome.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Controls_Black.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlue.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlueTransparent50.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlueTransparent75.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/EnvironmentLightBlue.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/EnvironmentParticles.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/EnvironmentTan.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/FrameOutline.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Grid Dark Large.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Grid Dark Tight.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Interactable White.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/ShadowCircular.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Skybox.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Table Surface.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Teleport Anchor Base.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/Teleport Anchor Blue Glow.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/TeleportAnchor.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/TeleportReticle.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/TeleportReticleCenter.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/UnityLogo.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Materials/VideoTexture.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/AnchorArrow.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/AnchorBase.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/AnchorFade.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Blocking Reticle Boundary.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Chess/Chess_Board.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Chess/Chess_Pawn.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Environment.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/EnvironmentFloorCollider.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/EnvironmentRoofCollider.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Frame.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Primitives/Cone.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Primitives/Cube.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Primitives/Cylinder.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Primitives/Disc.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Reticle.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/Semisphere.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/TeleportAnchorPlatform.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/UnityLogo.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Models/VirtualTabletop.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Arrow.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/AudioAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Cube.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Cylinder.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Disc.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/DiscController.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/PawnController.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/PokeButton.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/SimpleSocket.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/SimpleSocketShape.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/TableHandle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Anchor Animated.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Anchor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Floor Area Roof.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Floor Area Rounded.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/UI/ButtonHandMenu.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollHandMenu.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollView.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollViewItem.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/UI/TouchPadButton.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Prefabs/UI/Tutorial Player.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/AmbientEnvironmentParticle.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/AnchorGlowGradient.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/BrushedMetalMetallic.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/Circle60x60Horizontal.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/Pause.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/Play.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/Round Radius 10.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/ShadowCookie.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/Skybox_Cube.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/DemoAssets/Textures/UIIconTeleport.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/HandShapes/TeleportModeActivateHandShape.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/HandShapes/TeleportModeCancelHandShape.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/HandsDemoScene/LightingData.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/HandsDemoScene/Lightmap-0_comp_dir.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/HandsDemoScene/Lightmap-1_comp_dir.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/HandsDemoScene/Lightmap-2_comp_dir.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/DepthOnly.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/JoystickUISprite.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/TeleportNavigatorUI.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/Unity_Hand_Light.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/HandInteractorAffordances.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/HandMenuRig.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/HandPokeInteractorAffordances.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/HandTeleportInteractor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/InteractionAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/LeftHandAndroidXRVisual.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/LeftHandQuestVisual.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/PinchPointStabilized.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/RightHandAndroidXRVisual.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/RightHandQuestVisual.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Prefabs/XR Origin Hands (XR Rig).prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Textures/CombinedFingerIndexHighlight_M.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Hands Interaction Demo/Textures/TeleportNavigatorUI.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Haptics/Left_Controller.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Haptics/Right_Controller.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_DevicePosition.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_DeviceRotation.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Grip.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_GripButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_IsTracked.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_MenuButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Primary2DAxis.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Primary2DAxisClick.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Primary2DAxisTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_PrimaryButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_PrimaryTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Secondary2DAxis.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Secondary2DAxisClick.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Secondary2DAxisTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_SecondaryButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_SecondaryTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_TrackingState.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_Trigger.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_TriggerButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Left_UserPresence.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_DevicePosition.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_DeviceRotation.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Grip.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_GripButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_IsTracked.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_MenuButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Primary2DAxis.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Primary2DAxisClick.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Primary2DAxisTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_PrimaryButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_PrimaryTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Secondary2DAxis.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Secondary2DAxisClick.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Secondary2DAxisTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_SecondaryButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_SecondaryTouch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_TrackingState.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_Trigger.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_TriggerButton.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Legacy XR Input Readers/Right_UserPresence.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Affordances/BlendShapeAffordance.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Affordances/GrabHandleColorAffordanceTheme.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Affordances/ScaleHandleColorAffordanceTheme.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Audio/Button_22_click.wav
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Key Functions/Hide Function.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Key Functions/Key Code Function.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Key Functions/Layout Function.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Key Functions/Shift Key Function.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Key Functions/Value Key Function.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Layouts/LayoutAlphaNumeric.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Layouts/LayoutNumberPad.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Layouts/LayoutSymbols.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Materials/GrabHandle.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Materials/ScaleHandle.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Models/CurvedHandle.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Models/CurvedHandleWedge.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Models/Spatial Panel Manipulator Model.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/Input Field Global Keyboard.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/Input Field World Keyboard.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/Scale Handle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/XRI Global Keyboard Manager.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/XRI Keyboard Key.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/XRI Keyboard.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/XRI Number Pad.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/XRI Spatial Keyboard.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Prefabs/XRI Spatial Number Pad.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Sprites/Circle 64x64 Horizontal.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Sprites/Circle 64x64 Outline Horizontal.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Sprites/KeyboardIconAtlas.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Sprites/Round Radius 42.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Spatial Keyboard/Sprites/Round Radius Outline 42.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/AffordanceThemes/ControllerPokeSphereScale.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/AffordanceThemes/HighlightStrengthInteraction.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/AffordanceThemes/PokeSphereColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Audio/Button Pop.wav
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Materials/Concrete Dark Blue.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Materials/Concrete Grey.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Materials/Concrete Light Blue.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Materials/Lit White.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Blaster.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Blaster_Long.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Tapered_Cylinder.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Torus.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/Primitive_Torus_Cut.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Models/PushButton.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Climb/Climb Sample.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Climb/ClimbTeleportReticle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Climb/Climbing Wall.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Climb/Ladder.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Climb/Multi Floor Ladder.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Climb/Single Floor Ladder.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Far Grab Samples.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Gaze Interactables.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/GazeActivationZone.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables Sample.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser-Long.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Confetti.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Cube.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Cylinder.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Pot.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Push Button.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Torus-Cut.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Interactables/Torus.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/InteractionAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Poke Interactions Sample.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Anchor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Area.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/Teleportation Environment.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI Sample.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/Dropdown.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/Icon Button.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/Icon Toggle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/Interactive Controls.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/MinMaxSlider.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/ModalSingleButton.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/Scroll UI Sample.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/Text Toggle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Prefabs/UI/TextButton.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Settings/GazeTeleportAnchorFilter.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Settings/TeleportDestinationSettings.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Asset.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Checkmark.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Circle_60x60 Outline 4.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Circle_60x60_Horizontal.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Forward.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/LegibilityMask.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Round Radius 4 Outline.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/DemoAssets/Sprites/Round Radius 4.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/Controller_Grey.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/Controller_White.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/Flat Blue.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/FresnelHighlight.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/Interactable.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/Telport Anchor.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/Telport Area.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Materials/UI-NoZTest.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Models/BlinkVisual.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Models/Pinch_Pointer_LOD0.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Models/Primitive_Cylinder.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Models/Primitive_Wedge.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Models/Reticle_Torus.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Models/UniversalController.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Affordances/PokePointerAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Permissions Manager.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/Textures/DefaultMaterial_AO.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/TunnelingVignette/TunnelingVignette.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/TunnelingVignette/TunnelingVignette.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Materials/Grab Handle Material.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Materials/MaterialPipelineHandler.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Materials/Telport Anchor.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Models/Spatial Panel Manipulator Model.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Prefabs/UGUI Grab UI.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Prefabs/UI Toolkit Button With Event.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Prefabs/UI Toolkit Grab UI.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Prefabs/UI Toolkit Input Field.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/Prefabs/UI Toolkit Scrollview.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/UI Toolkit Panel Settings/WorldSpacePanel.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/World Space UI/UI Toolkit Panel Settings/WorldSpacePanel_Auto.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Fist Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Open Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Pinch Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Poke Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Resting Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/Hand Expression Captures/Thumb Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Controller/ControllerLeft.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Controller/ControllerOverlayLinesLeft.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Controller/ControllerOverlayLinesRight.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Controller/ControllerRight.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Controller/xr_ctlr.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/CloseWindow.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/CycleXRDevices.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/DeviceSimUI_bg.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/Gripper.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/KeyboardIcon.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/Look.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/OpenWindow.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/General/btn_bgbottom.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Default.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Fist.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Grab.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Open.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Pinch.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Poke.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/Hand_Thumb.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Hands/hand.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Head/HMD.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Head/HMD_d.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Head/MoveRotateTool.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Head/Movement.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Head/xr_hmd.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Mouse/Cursor.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Mouse/Mouse.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Mouse/MouseMoveAround.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Mouse/MouseR.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/Mouse/MouseR_d.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/UI/XR Device Simulator UI.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Device Simulator/XR Device Simulator.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Fist Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Grab Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Open Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Pinch Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Poke Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Resting Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Expressions/Thumb Expression Capture.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Recordings/grab.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Recordings/idle.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Recordings/pinch.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/Hand Recordings/poke.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/BothControllers.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/ControllerLeft.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/ControllerRight.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/LeftController.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/LeftControllerOutline@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/RightController.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Controller/RightControllerOutline@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/BothControllers_mac32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/BothControllers_win64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/BothHands_mac32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/BothHands_win64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/HandCursor_mac_32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/HandCursor_win_64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/HeadsetCursor_mac_32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/HeadsetCursor_win_64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/LeftController_mac32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/LeftController_win64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/LeftHand_mac32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/LeftHand_win64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/RightController_mac32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/RightController_win64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/RightHand_mac32.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Cursors/RightHand_win64.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/General/SwitchIcon.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/General/bg.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/Grab.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/Hand_Left.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/Hand_Right.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/Hands.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/LeftHand.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/LeftHandOutline@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/LeftHandOutlineThin@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/Pinch.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/Poke.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/RightHand.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/RightHandOutline@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Hands/RightHandOutlineThin@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Headset/HeadsetOutline.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Headset/HeadsetOutline@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Highlight/RoundedHighlight.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Modes/MirrorMode@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Modes/NavigationMode@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/BackRotate@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/ForwardRotate@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/LeftRotate@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/RightRotate@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/RotateDownArrow.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/RotateLeftArrow.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/RotateRightArrow.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Rotate/RotateUpArrow.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Translate/TranslateBack@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Translate/TranslateDown.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Translate/TranslateForward@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Translate/TranslateLeft@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Translate/TranslateRight@2x.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/Translate/TranslateUp.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/UI/XR Interaction Simulator UI.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/XR Interaction Simulator/XR Interaction Simulator.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/XRMouseInteractionDemo/Materials/MouseCursorCenter.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/XRMouseInteractionDemo/Materials/MouseCursorRing.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/XRMouseInteractionDemo/Prefabs/XRMouse.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/XRMouseInteractionDemo/Textures/flat_cursor_center.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/XRMouseInteractionDemo/Textures/flat_cursor_ring.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/BackgroundPanel.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/Button.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/Dropdown_Bg.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/Dropdown_Element.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/Panel.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/Slider.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/ToggleBackground.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Materials/ToggleSphere.mat
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Models/PlatformLarge.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Models/Rounded Cube.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Models/SpatialPanel_Slider.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Models/SpatialPanel_UI.fbx
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/Interactables/GrabAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/Interactables/XRI_Cube.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/Interactors/Primary Interaction Group.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/Interactors/Secondary Interaction Group Variant.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/SpatialUI/ButtonAffordance.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/SpatialUI/SpatialPanel_UI.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Prefabs/XRI_SimpleRig.prefab
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Resources/VolumeCameraWindowConfiguration.asset
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Textures/Panel_Base_color.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Textures/Panel_Mixed_AO.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Textures/Panel_Normal_OpenGL.png
+Packages/com.unity.xr.interaction.toolkit/Samples~/visionOS/Themes/UIButtonColorTheme.asset
+ProjectSettings/PhysicsCoreProjectSettings2D.asset
+ProjectSettings/ProjectAuditorSettings.asset

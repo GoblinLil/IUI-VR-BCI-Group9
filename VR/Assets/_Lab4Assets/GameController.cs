@@ -106,7 +106,7 @@ public class GameRunController : MonoBehaviour
             }
         }
         
-        startButton.enabled = locked;
+        startButton.interactable = locked;
     }
 
     [Serializable]
