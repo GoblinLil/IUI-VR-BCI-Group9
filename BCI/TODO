@@ -1,0 +1,5 @@
+[ ] Config.py - check if different hz values improve performance
+[x] Main.py - add game win handle
+[ ] Ungroup the arrows, to make it easier to focus on only one of them?
+
+[ ] Movment with arrow keys

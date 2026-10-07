@@ -105,8 +105,15 @@ class UI:
           3. draw each arrow at its spot (`_draw_one_arrow`)
         """
         # 1. panel background + title
-        panel_rect = pg.Rect(0, 0, self.sidebar_px, self.surf.get_height())
-        pg.draw.rect(self.surf, PANEL, panel_rect)
+
+        surf_w, surf_h = self.surf.get_size()
+
+        panel_rect_l_side = pg.Rect(0, 0, self.sidebar_px, surf_h)
+        panel_rect_r_side = pg.Rect(surf_w - self.sidebar_px, 0, self.sidebar_px, surf_h)
+
+        pg.draw.rect(self.surf, PANEL, panel_rect_l_side)
+        pg.draw.rect(self.surf, PANEL, panel_rect_r_side)
+
         title = self.font.render("Controls", True, TEXT)
         self.surf.blit(title, (12, 10))
 
@@ -114,12 +121,15 @@ class UI:
         dirs = SIDEBAR_ORDER  # top-to-bottom order; reorder in Config.py to try new layouts
         size, ys = self._layout_arrow_positions(dirs)
         cx = self.sidebar_px // 2
+        
+        xs = [cx, self.surf.get_width()-cx, self.surf.get_width()-cx, cx]
 
         # 3. draw each one
         frame = getattr(self, "frame_idx", 0)
-        draw_labels = self.sidebar_px >= 120  # hide labels if the sidebar is too narrow for them
+        #draw_labels = self.sidebar_px >= 120  # hide labels if the sidebar is too narrow for them
+        draw_labels = False
         label_dx = size + 8  # how far right of the arrow the label sits
-        for d, cy in zip(dirs, ys):
+        for d, cy, cx in zip(dirs, ys, xs):
             self._draw_one_arrow(d, cx, cy, size, frame, is_armed=(armed_dir == d),
                                   draw_label=draw_labels, label_dx=label_dx)
 
@@ -139,6 +149,7 @@ class UI:
         """
         size = ARROW_SIZE_PX
         panel_h = self.surf.get_height()
+        panel_w = self.surf.get_width()
         top_margin = 44 + size        # below the title, room for the first arrow
         bottom_margin = 40 + 12 + size  # room for the last arrow + the HUD text
 
@@ -152,7 +163,8 @@ class UI:
         if len(dirs) == 1:
             ys = [int((y_min + y_max) * 0.5)]
         else:
-            ys = [int(y) for y in np.linspace(y_min, y_max, num=len(dirs))]
+            ys = [y_min, y_min, y_max, y_max]
+            #ys = [int(y) for y in np.linspace(y_min, y_max, num=len(dirs))]
 
         return size, ys
 
@@ -208,7 +220,7 @@ class UI:
         # it onto the fill so only the arrow-shaped pixels survive (this
         # is called "masking").
         poly = self._arrow_polygon(d, (size, size), size)  # centered on the fill surface
-        mask = pg.Surface((size * 2, size * 2), pg.SRCALPHA)
+        mask = pg.Surface((size * 3, size * 2), pg.SRCALPHA)
         mask.fill((0, 0, 0, 0))
         pg.draw.polygon(mask, (255, 255, 255, 255), poly)
         fill_surf.blit(mask, (0, 0), None, pg.BLEND_RGBA_MULT)

@@ -117,15 +117,34 @@ class BCIListener:
 # END DO NOT EDIT
 # ---------------------------------------------------------------------------
 
+def load_maze(surf, bci, maze):
+    # --- load maze from file (change which maze loads via Config.MAZE_PATH) ---
+
+        # Use the *actual drawable surface* size for all layout math
+    screen_w, screen_h = surf.get_size()
+
+    # Compute cell size to maximize maze height, while keeping at least
+    # Config.MIN_SIDEBAR_PX of width for the arrow sidebar.
+
+    cell_px_h = screen_h // maze.rows
+    cell_px_w = max(1, (screen_w - 2 * MIN_SIDEBAR_PX) // maze.cols)
+    cell_px = max(1, min(cell_px_h, cell_px_w))
+
+    # split the leftover width evenly -> maze gets centered between two panels
+    maze_w = maze.cols * cell_px
+    sidebar_px = max(MIN_SIDEBAR_PX, (screen_w - maze_w) // 2)
+
+    # ---- setup UI and Controller objects ----
+    ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
+    ctrl = Controller(maze, cell_px=cell_px, bci=bci)
+    return ui, ctrl
+
 
 def main():
+    maze_path = MAZE_PATH
     bci = BCIListener(name="BCI_FREQ", stype="BCI")  # listens for float Hz
 
     clock = pg.time.Clock()
-
-    # --- load maze from file (change which maze loads via Config.MAZE_PATH) ---
-    lines = read_ascii_maze(MAZE_PATH)
-    maze = Maze(lines)
 
     # --- pygame / window ---
     pg.init()
@@ -146,48 +165,118 @@ def main():
         h = max(600, info.current_h - 120)
         surf = pg.display.set_mode((w, h), flags)
 
-    # Use the *actual drawable surface* size for all layout math
-    screen_w, screen_h = surf.get_size()
-
-    # Compute cell size to maximize maze height, while keeping at least
-    # Config.MIN_SIDEBAR_PX of width for the arrow sidebar.
-    cell_px_h = screen_h // maze.rows
-    cell_px_w = max(1, (screen_w - MIN_SIDEBAR_PX) // maze.cols)
-    cell_px = max(1, min(cell_px_h, cell_px_w))
-
-    # recompute actual sidebar to fill remaining width exactly
-    maze_w = maze.cols * cell_px
-    sidebar_px = max(MIN_SIDEBAR_PX, screen_w - maze_w)
-
-    # ---- setup UI and Controller objects ----
-    ui = UI(surf, cell_px=cell_px, sidebar_px=sidebar_px)
-    ctrl = Controller(maze, cell_px=cell_px, bci=bci)
-
-    ui.frame_idx = 0
+    maze_number = 0
     running = True
     while running:
-        dt = clock.tick(60) / 1000.0
+        try:
+            lines = read_ascii_maze(maze_path)
+        except OSError as e:
+            print(f"[Maze] Unable to read maze file '{maze_path}': {e}")
+            running = False
+            font = pg.font.SysFont("consolas", 32)
+            small_font = pg.font.SysFont("consolas", 18)
+            message = font.render("You have won all mazes!", True, "white")
+            hint = small_font.render("Press Enter to exit the game", True, "white")
+            alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width()) + 40,
+                            message.get_height() + hint.get_height() + 40)
+            alert.center = surf.get_rect().center
+            pg.draw.rect(surf, "darkgreen", alert)
+            surf.blit(message, message.get_rect(center=(alert.centerx, alert.top + 30)))
+            surf.blit(hint, hint.get_rect(center=(alert.centerx, alert.bottom - 25)))
+            pg.display.flip()
+            while True:
+                for ev in pg.event.get():
+                    if ev.type == pg.QUIT or (ev.type == pg.KEYDOWN and ev.key == pg.K_RETURN):
+                        pg.quit()
+                        break
+            break
 
-        for ev in pg.event.get():
-            if ev.type == pg.QUIT:
-                running = False
-            elif ev.type == pg.KEYDOWN and ev.key == pg.K_ESCAPE:
-                running = False
+        maze = Maze(lines)  
+        ui,ctrl = load_maze(surf, bci, maze)
+        
+        ui.frame_idx = 0
+        running = True
+        won = False
+        skip_level = False
+        while running and (not won):
+            debug_vector = ''
 
-        ctrl.update(dt)
+            dt = clock.tick(60) / 1000.0
 
-        # draw frame
-        ui.draw(
-            maze,
-            ctrl.pos_rc,
-            ctrl.armed_dir,
-            steps=ctrl.step_count,
-            elapsed_s=ctrl.elapsed_time
-        )
+            for ev in pg.event.get():
+                if ev.type == pg.QUIT:
+                    running = False
+                elif ev.type == pg.KEYDOWN and ev.key == pg.K_ESCAPE:
+                    running = False
+                # skip level if letter n is pressed
+                elif ev.type == pg.KEYDOWN and ev.key == pg.K_n:
+                    skip_level = True
+                    print("Skipping level...")
+                    break
 
-        pg.display.flip()
-        ui.frame_idx += 1
+            pressed = pg.key.get_pressed()
+            if pressed[pg.K_UP]:
+                debug_vector = "N"
+            elif pressed[pg.K_DOWN]:
+                debug_vector = "S"
+            elif pressed[pg.K_LEFT]:
+                debug_vector = "W"
+            elif pressed[pg.K_RIGHT]:
+                debug_vector = "E"
 
+            ctrl.update(dt,debug_vector)
+
+            # draw frame
+            ui.draw(
+                maze,
+                ctrl.pos_rc,
+                ctrl.armed_dir,
+                steps=ctrl.step_count,
+                elapsed_s=ctrl.elapsed_time
+            )
+
+            pg.display.flip()
+            ui.frame_idx += 1
+            if ui.frame_idx == 1 and maze_number == 0:
+                # help window
+                font = pg.font.SysFont("consolas", 32)
+                small_font = pg.font.SysFont("consolas", 18)
+                message = font.render("WELOME TO THE GAME", True, "white")
+                hint = small_font.render("Your goal is to get the duck to the exit square, moving by focusing on the flashing arrows.", True, "white")
+                skip_hint = small_font.render('If you are stuck, press button "n" to skip the level', True, "white")
+                alert = pg.Rect(0, 0, max(message.get_width(), hint.get_width(), skip_hint.get_width()) + 40,
+                                message.get_height() + hint.get_height() + skip_hint.get_height() + 50)
+                alert.center = surf.get_rect().center
+                pg.draw.rect(surf, "darkgreen", alert)
+                surf.blit(message, message.get_rect(center=(alert.centerx, alert.top + 25)))
+                surf.blit(hint, hint.get_rect(center=(alert.centerx, alert.top + message.get_height() + 35)))
+                surf.blit(skip_hint, skip_hint.get_rect(center=(alert.centerx, alert.bottom - 25)))
+                pg.display.flip()
+                time.sleep(8)
+
+            if (ctrl.pos_rc[0] == maze.goal[0] and ctrl.pos_rc[1] == maze.goal[1]) or skip_level:
+                if (not skip_level):
+                    print("You won the maze!")
+                    font = pg.font.SysFont("consolas", 32)
+                    message = font.render("Maze won!", True, "white")
+                    alert = pg.Rect(0, 0, message.get_width() + 40, message.get_height() + 30)
+                    alert.center = surf.get_rect().center
+                    pg.draw.rect(surf, "darkgreen", alert)
+                    surf.blit(message, message.get_rect(center=alert.center))
+                    pg.display.flip()
+                    print("Loading next maze in 3 seconds...")
+                    time.sleep(4)
+
+                # add logic for the user to choose if they want to continue playing?
+                # if no, then set running to false.
+                # if yes:
+                
+                skip_level = False
+                maze_number += 1
+                maze_path = maze_path[:-5] + str(maze_number) + ".txt"
+                won = True 
+
+    
     # teardown
     pg.quit()
 

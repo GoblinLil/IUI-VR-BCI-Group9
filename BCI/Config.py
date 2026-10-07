@@ -58,7 +58,7 @@ SIDEBAR_ORDER = ["N", "W", "S", "E"]
 #                       full explanation, and re-check FREQ_THRESHOLDS
 #                       below if you switch, since they were tuned for
 #                       the square-wave flicker.
-ICON_FLICKER_MODE = "square"
+ICON_FLICKER_MODE = "cosine"
 
 # In "square" mode, an arrow's "hz" (below) must be one of these exact
 # values. Each one was chosen so that REFRESH_HZ / hz comes out to a whole,
@@ -139,8 +139,9 @@ CHECKER2         = (0, 0, 0)        # arrow checker-pattern color 2
 # from this file rather than hardcoding their own, so you only ever need
 # to edit this one dictionary.
 
-REFRESH_HZ = 60  # assumed display refresh rate (see FlashableIcon.py)
+REFRESH_HZ = 144  # assumed display refresh rate (see FlashableIcon.py)
 
+#TODO: Check if change of hz values improves the performence.
 DIRECTIONS = {
     "N": {"vector": (-1, 0), "hz": 4.29,   "threshold": 0.80},  # -> 14  frames
     "W": {"vector": (0, -1), "hz": 6,    "threshold": 0.80},  # -> 10 frames
