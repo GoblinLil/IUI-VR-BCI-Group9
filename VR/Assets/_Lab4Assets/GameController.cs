@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using JetBrains.Annotations;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -81,6 +82,8 @@ public class GameRunController : MonoBehaviour
     }
 
     [SerializeField] private Button startButton;
+    [SerializeField] private TextMeshProUGUI startTimeText;
+    public Action<bool> OnInteractionLockedChanged;
     
     void SetInteractionLocked(bool locked)
     {
@@ -107,6 +110,8 @@ public class GameRunController : MonoBehaviour
         }
         
         startButton.interactable = locked;
+        startTimeText.text = locked ? "Running..." : "Start";
+        OnInteractionLockedChanged?.Invoke(locked);
     }
 
     [Serializable]

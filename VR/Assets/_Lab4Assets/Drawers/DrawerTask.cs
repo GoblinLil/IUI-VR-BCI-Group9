@@ -27,8 +27,15 @@ public class DrawerTask : MonoBehaviour
         {
             m_isComplete = value;
             OnProgressChanged();
+            
+            if (value)
+            {
+                OnCompleted?.Invoke();
+            }
         }
     }
+
+    public event Action OnCompleted;
     
     public event Action OnProgressChanged; // event to notify progress changes
 

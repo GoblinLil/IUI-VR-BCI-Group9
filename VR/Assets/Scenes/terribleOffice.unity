@@ -3659,7 +3659,7 @@ MonoBehaviour:
   coffeeStartPosition: -0.3116
   coffee: {fileID: 582577118}
   progressSlider: {fileID: 1447391198}
-  doneCheckmark: {fileID: 936245728}
+  doneCheckmark: {fileID: 1982631578}
 --- !u!4 &215609502
 Transform:
   m_ObjectHideFlags: 0
@@ -21742,6 +21742,9 @@ MonoBehaviour:
   runController: {fileID: 1752296331}
   chimeAudioSource: {fileID: 1105435799}
   chimeAudioClip: {fileID: 8300000, guid: 4fba63ff1259d294992b7927ac265875, type: 3}
+  chimeDrawerFull: {fileID: 8300000, guid: 2eb2c69f16e124e4a8d971bf582bd7e1, type: 3}
+  fullWin: {fileID: 8300000, guid: 42527fb6ebeb8b0489250ae34fe8b34a, type: 3}
+  startupSound: {fileID: 8300000, guid: 8c56f930447b4464585b30074f0c78a2, type: 3}
 --- !u!114 &1752296331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21766,6 +21769,7 @@ MonoBehaviour:
   - {fileID: 1756443842}
   fss: {fileID: 1357083042}
   startButton: {fileID: 3409566789716954865}
+  startTimeText: {fileID: 0}
 --- !u!114 &1752296332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23312,7 +23316,7 @@ GameObject:
   - component: {fileID: 1982631581}
   - component: {fileID: 1982631580}
   m_Layer: 5
-  m_Name: DoneCheck
+  m_Name: DoneCheckCoffee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

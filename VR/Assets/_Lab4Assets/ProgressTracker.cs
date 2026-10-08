@@ -67,6 +67,8 @@ public class ProgressTracker : MonoBehaviour
         if (allDone && !announced)
         {
             announced = true;
+            
+            chimeAudioSource.PlayOneShot(fullWin);
 
             // Gather completed task names (only those that are actually complete)
             var completed = GetCompletedTasks();
@@ -97,6 +99,10 @@ public class ProgressTracker : MonoBehaviour
     
     public AudioSource chimeAudioSource;
     public AudioClip chimeAudioClip;
+    public AudioClip chimeDrawerFull;
+    public AudioClip fullWin;
+
+    public AudioClip startupSound;
 
     void OnEnable()
     {
@@ -104,10 +110,28 @@ public class ProgressTracker : MonoBehaviour
         cleaningTask.OnCompleted += OnCompleteTask;
         trashTask.OnCompleted += OnCompleteTask;
         coffeeTask.OnCompleted += OnCompleteTask;
+        
+        drawerA.OnCompleted += OnCompleteDrawer;
+        drawerB.OnCompleted += OnCompleteDrawer;
+        
+        runController.OnInteractionLockedChanged += OnInteractionLockedChanged;
+    }
+
+    private void OnInteractionLockedChanged(bool obj)
+    {
+        if (obj)
+        {
+            chimeAudioSource.PlayOneShot(startupSound);
+        }
     }
 
     void OnCompleteTask()
     {
         chimeAudioSource.PlayOneShot(chimeAudioClip);
+    }
+
+    void OnCompleteDrawer()
+    {
+        chimeAudioSource.PlayOneShot(chimeDrawerFull);
     }
 }
