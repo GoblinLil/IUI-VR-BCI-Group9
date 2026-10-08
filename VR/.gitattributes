@@ -39,3 +39,10 @@
 *.so filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
+
+# ============================================
+# Exceptions for specific files or directories
+# ============================================
+
+# Force all .asset files inside ProjectSettings to be tracked as regular Git text files
+ProjectSettings/*.asset text -filter -diff -merge
