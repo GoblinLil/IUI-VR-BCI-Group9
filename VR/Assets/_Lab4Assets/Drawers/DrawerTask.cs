@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
@@ -17,7 +18,19 @@ public class DrawerTask : MonoBehaviour
     [SerializeField] private int wrongInserts;   // placed item != expectedType
     public float ErrorRate => totalInserts > 0 ? (float)wrongInserts / totalInserts : 0f; //note: not used in final version
 
-    public bool IsComplete { get; private set; }
+    bool m_isComplete;
+
+    public bool IsComplete
+    {
+        get => m_isComplete;
+        private set
+        {
+            m_isComplete = value;
+            OnProgressChanged();
+        }
+    }
+    
+    public event Action OnProgressChanged; // event to notify progress changes
 
     // DO NOT CHANGE THIS METHOD
     void OnEnable()
@@ -97,8 +110,13 @@ public class DrawerTask : MonoBehaviour
             IsComplete = false;
             Debug.Log($"{taskName}: no longer complete ({matched}/{requiredCount})");
         }
+        
+        current = matched;
+        OnProgressChanged();
     }
 
+    public int current;
+    
     // --- Reset pattern ---
     // Called by DrawerResetController. Clears progress, NOT metrics.
     // If you change this behaviour, ensure to keep the current lines

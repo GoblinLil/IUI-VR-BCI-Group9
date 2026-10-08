@@ -42,5 +42,6 @@ public class CleaningTaskController : MonoBehaviour
         }
 
         Debug.Log("[CleaningReset] Progress cleared and sponge reset.");
+        task.onReset();
     }
 }

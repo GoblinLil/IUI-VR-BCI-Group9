@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class ProgressTracker : MonoBehaviour
     public CleaningTask cleaningTask;
     public TrashBinScorer trashTask;
     public CoffeeTask coffeeTask;
+    public DrawerTaskResetController drawerResetController;
 
     [Header("Run Control")]
     public GameRunController runController;
@@ -90,5 +92,22 @@ public class ProgressTracker : MonoBehaviour
         if (trashTask && trashTask.IsComplete) list.Add("Trash");
         if (coffeeTask && coffeeTask.IsComplete) list.Add("Coffee");
         return list;
+    }
+    
+    
+    public AudioSource chimeAudioSource;
+    public AudioClip chimeAudioClip;
+
+    void OnEnable()
+    {
+        drawerResetController.OnCompleted += OnCompleteTask;
+        cleaningTask.OnCompleted += OnCompleteTask;
+        trashTask.OnCompleted += OnCompleteTask;
+        coffeeTask.OnCompleted += OnCompleteTask;
+    }
+
+    void OnCompleteTask()
+    {
+        chimeAudioSource.PlayOneShot(chimeAudioClip);
     }
 }
