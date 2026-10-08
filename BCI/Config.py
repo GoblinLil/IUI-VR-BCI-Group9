@@ -31,7 +31,7 @@ MAZE_PATH = "mazes/level0.txt"  # which ASCII maze file to load (see Maze.py)
 WINDOW_W, WINDOW_H = 1280, 720   # starting window size (the game maximizes on top of this)
 MIN_SIDEBAR_PX = 200             # minimum width (px) reserved for the arrow sidebar in UI.py
                                   # -> too small and the arrows/labels get cramped.
-ARROW_SIZE_PX = 36               # fixed size (px) of each sidebar arrow. Unlike MIN_SIDEBAR_PX,
+ARROW_SIZE_PX = 90               # fixed size (px) of each sidebar arrow. Unlike MIN_SIDEBAR_PX,
                                   # this does NOT adjust itself to the window — if you make the
                                   # sidebar much narrower/shorter than the default, arrows this
                                   # size may not all fit
@@ -58,7 +58,7 @@ SIDEBAR_ORDER = ["N", "W", "S", "E"]
 #                       full explanation, and re-check FREQ_THRESHOLDS
 #                       below if you switch, since they were tuned for
 #                       the square-wave flicker.
-ICON_FLICKER_MODE = "cosine"
+ICON_FLICKER_MODE = "square"
 
 # In "square" mode, an arrow's "hz" (below) must be one of these exact
 # values. Each one was chosen so that REFRESH_HZ / hz comes out to a whole,
@@ -139,14 +139,14 @@ CHECKER2         = (0, 0, 0)        # arrow checker-pattern color 2
 # from this file rather than hardcoding their own, so you only ever need
 # to edit this one dictionary.
 
-REFRESH_HZ = 144  # assumed display refresh rate (see FlashableIcon.py)
+REFRESH_HZ = 60   # assumed display refresh rate (see FlashableIcon.py)
 
 #TODO: Check if change of hz values improves the performence.
 DIRECTIONS = {
-    "N": {"vector": (-1, 0), "hz": 4.29,   "threshold": 0.80},  # -> 14  frames
-    "W": {"vector": (0, -1), "hz": 6,    "threshold": 0.80},  # -> 10 frames
-    "S": {"vector": (1, 0),  "hz": 10, "threshold": 0.80},  # -> 6 frames
-    "E": {"vector": (0, 1),  "hz": 15,   "threshold": 0.60},  # -> 4  frames
+    "N": {"vector": (-1, 0), "hz": 5,   "threshold": 0.3},  # -> 14  frames
+    "W": {"vector": (0, -1), "hz": 10,    "threshold": 0.3},  # -> 10 frames
+    "S": {"vector": (1, 0),  "hz": 6, "threshold": 0.3},  # -> 6 frames
+    "E": {"vector": (0, 1),  "hz": 15,   "threshold": 0.2},  # -> 4  frames
 }
 
 # --- Everything below this line is DERIVED from DIRECTIONS above. ---
