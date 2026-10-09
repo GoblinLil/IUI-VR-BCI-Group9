@@ -62,7 +62,6 @@ class Controller:
             return
 
         d = self.bci.poll_direction()  # 'N', 'E', 'S', 'W', or '' (nothing detected)
-        print(f"BCI polled: {d}")
         if not d and not debug_vector:
             return
         if debug_vector:
@@ -74,7 +73,8 @@ class Controller:
     def update(self, dt, debug_vector):
         """Advance game state by `dt` seconds. Call once per frame from Main.py."""
         self.elapsed_time += dt
-        self.handle_bci(dt,debug_vector)"""
+        self.handle_bci(dt,debug_vector)
+"""
 Controller.py: turns BCI input (or, in principle, any input source with a
 `.poll_direction()` method) into player movement on the maze grid.
 
