@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.Interactables; // XRGrabInteractable
 
 public class CoffeeTask : MonoBehaviour
@@ -22,12 +24,45 @@ public class CoffeeTask : MonoBehaviour
     public float angleOffDeg = 45;       // keep pouring when <= this
 
     [Header("Completion")]
-    public float requiredSeconds = 0.3f;    // time hitting cup to complete
-    public bool IsComplete { get; private set; }
+    public float requiredSeconds = .3f;    // time hitting cup to complete
+    public bool rememberPour = true; // doesn't stop counting if you lift the pot
 
+    [Header("Coffee")]
+    public float coffeeFinalPosition = 0f;
+    public float coffeeStartPosition = -0.3116f;
+    public Transform coffee;
+    
+    [Header("UI")]
+    private bool m_isComplete;
+    public bool IsComplete
+    {
+        get => m_isComplete;
+        private set
+        {
+            m_isComplete = value;
+            doneCheckmark.SetActive(value);
+            
+            if (value)
+            {
+                OnCompleted?.Invoke();
+            }
+        }
+    }
+
+    public event Action OnCompleted;
+    
     // State
     float pouringSeconds;
     bool pouring;
+    
+    public Slider progressSlider; // UI slider to show progress
+    public GameObject doneCheckmark; // UI checkmark to show task completion
+
+    private void OnEnable()
+    {
+        IsComplete = false;
+        progressSlider.maxValue = requiredSeconds;
+    }
 
     void Update()
     {
@@ -61,10 +96,14 @@ public class CoffeeTask : MonoBehaviour
                 Debug.Log("Coffee task COMPLETE");
             }
         }
-        else
+        else if (!rememberPour)
         {
             pouringSeconds = 0f;
         }
+        
+        progressSlider.value = IsComplete ? requiredSeconds : pouringSeconds;
+        // coffeeIndicatorTest.localScale = new Vector3(coffeeIndicatorTest.localScale.x, (pouringSeconds / requiredSeconds) * .2f, coffee.localScale.z);
+        coffee.localPosition = new Vector3(coffee.localPosition.x, Mathf.Lerp(coffeeStartPosition, coffeeFinalPosition, pouringSeconds / requiredSeconds), coffee.localPosition.z);
     }
 
     // Coffee Task reset
@@ -82,6 +121,7 @@ public class CoffeeTask : MonoBehaviour
         // 3) Reset state
         pouring = false;
         pouringSeconds = 0f;
+        progressSlider.value = pouringSeconds;
         IsComplete = false;
 
         // 4) Respawn to spawn points
@@ -106,7 +146,7 @@ public class CoffeeTask : MonoBehaviour
     bool RayHitsCupMouth()
     {
         if (!cupMouth) return false;
-        Vector3 dir = StreamDir();
+        Vector3 dir = Vector3.down; // gravity goes downwards, not in the weird spout direction
         Vector3 origin = spoutTip.position + dir * 0.01f; // avoid hitting our own pot
         return Physics.Raycast(origin, dir, out var hit, rayDistance, ~0, QueryTriggerInteraction.Collide)
                && hit.collider == cupMouth;
