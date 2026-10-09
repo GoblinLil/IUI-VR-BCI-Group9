@@ -110,7 +110,7 @@ public class GameRunController : MonoBehaviour
         }
         
         startButton.interactable = locked;
-        startTimeText.text = locked ? "Running..." : "Start";
+        startTimeText.text = !locked ? "Running..." : "Start";
         OnInteractionLockedChanged?.Invoke(locked);
     }
 

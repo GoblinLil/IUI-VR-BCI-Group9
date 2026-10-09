@@ -3652,9 +3652,10 @@ MonoBehaviour:
   pourParticles: {fileID: 63341907}
   cupMouth: {fileID: 1736882756}
   rayDistance: 10
-  angleOnDeg: 25
-  angleOffDeg: 45
-  requiredSeconds: 0.3
+  angleOnDeg: 45
+  angleOffDeg: 60
+  requiredSeconds: 3
+  rememberPour: 1
   coffeeFinalPosition: -0.137
   coffeeStartPosition: -0.3116
   coffee: {fileID: 582577118}
@@ -4743,14 +4744,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405474334}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.4615214, y: 0.6293469, z: 0.021551726, w: -0.6248648}
-  m_LocalPosition: {x: -0.208, y: 0.5, z: 0.017}
+  m_LocalRotation: {x: -0.17217083, y: 0.68226886, z: -0.10213177, w: -0.70316124}
+  m_LocalPosition: {x: -0.22930005, y: 0.50090003, z: -0.0176}
   m_LocalScale: {x: 0.88819414, y: 1.2825282, z: 0.9124364}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 63341909}
   m_Father: {fileID: 478296598}
-  m_LocalEulerAnglesHint: {x: 33.343, y: -105.138, z: 313.313}
+  m_LocalEulerAnglesHint: {x: 22.426, y: -89.397, z: 354.331}
 --- !u!1001 &413108666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7830,7 +7831,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -7865,7 +7866,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
+  m_ThrowVelocityScale: 0.4
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
@@ -9579,7 +9580,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -9603,28 +9604,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.013332367
-      value: 0.8239746
-      inSlope: 0
-      outSlope: 0
+      time: 0
+      value: 1
+      inSlope: 0.061391223
+      outSlope: 0.061391223
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.30108145
     - serializedVersion: 3
-      time: 0.980011
-      value: 0.82302475
-      inSlope: 2
-      outSlope: 2
+      time: 1
+      value: 1
+      inSlope: -0.04939078
+      outSlope: -0.04939078
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.2766075
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 2.5
-  m_ThrowAngularVelocityScale: 1
+  m_ThrowVelocityScale: 0.3
+  m_ThrowAngularVelocityScale: 0.5
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
   m_RetainTransformParent: 1
@@ -10016,7 +10017,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -10051,7 +10052,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
+  m_ThrowVelocityScale: 0.4
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
@@ -12804,7 +12805,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -12839,7 +12840,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
+  m_ThrowVelocityScale: 0.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
@@ -13204,7 +13205,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -13228,19 +13229,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 1
+      time: 0
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: 0.061391223
+      outSlope: 0.061391223
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
+      outWeight: 0.30108145
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -0.04939078
+      outSlope: -0.04939078
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2766075
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 1
+  m_ThrowVelocityScale: 0.3
+  m_ThrowAngularVelocityScale: 0.5
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
   m_RetainTransformParent: 1
@@ -17767,7 +17777,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -17802,7 +17812,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
+  m_ThrowVelocityScale: 0.4
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
@@ -21745,6 +21755,8 @@ MonoBehaviour:
   chimeDrawerFull: {fileID: 8300000, guid: 2eb2c69f16e124e4a8d971bf582bd7e1, type: 3}
   fullWin: {fileID: 8300000, guid: 42527fb6ebeb8b0489250ae34fe8b34a, type: 3}
   startupSound: {fileID: 8300000, guid: 8c56f930447b4464585b30074f0c78a2, type: 3}
+  trashAcceptSound: {fileID: 8300000, guid: a91130e7c0955be41b4abbd1e646ae28, type: 3}
+  trashRejectSound: {fileID: 8300000, guid: 094e0c748773bb14cbd8a28475e5dc8e, type: 3}
 --- !u!114 &1752296331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21769,7 +21781,7 @@ MonoBehaviour:
   - {fileID: 1756443842}
   fss: {fileID: 1357083042}
   startButton: {fileID: 3409566789716954865}
-  startTimeText: {fileID: 0}
+  startTimeText: {fileID: 3409566789092376685}
 --- !u!114 &1752296332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21980,7 +21992,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -22015,7 +22027,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 3.61
+  m_ThrowVelocityScale: 0.3
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_UnparentTransformOnGrab: 1
@@ -23464,7 +23476,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1089797748648338730, guid: 8d8fb26dd6a666247b80ad25ad1e316b, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8130560282236414093, guid: 8d8fb26dd6a666247b80ad25ad1e316b, type: 3}
       propertyPath: m_Icon
@@ -23526,7 +23538,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1089797748648338730, guid: 8d8fb26dd6a666247b80ad25ad1e316b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -28175,7 +28188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7588349345878709240, guid: 2d1310c603d162d4d98cda1319c17b81, type: 3}
       propertyPath: m_MovementType
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7588349345878709240, guid: 2d1310c603d162d4d98cda1319c17b81, type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8165037702239929226, guid: 2d1310c603d162d4d98cda1319c17b81, type: 3}
       propertyPath: m_ImplicitTensor

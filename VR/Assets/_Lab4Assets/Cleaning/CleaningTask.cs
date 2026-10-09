@@ -69,6 +69,20 @@ public class CleaningTask : MonoBehaviour
     public void onReset()
     {
         progress(0);
+        IsComplete = false;
+
+        foreach (Collider col in targets)
+        {
+            if (col.TryGetComponent(out ParticleSystem ps))
+            {
+                ps.Play();
+            }
+        }
+        
+        for(int i = 0; i < touched.Length; i++)
+        {
+            touched[i] = false;
+        }
     }
 
     // This method is called when a trigger collider is touched

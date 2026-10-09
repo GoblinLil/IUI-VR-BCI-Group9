@@ -25,6 +25,7 @@ public class CoffeeTask : MonoBehaviour
 
     [Header("Completion")]
     public float requiredSeconds = .3f;    // time hitting cup to complete
+    public bool rememberPour = true; // doesn't stop counting if you lift the pot
 
     [Header("Coffee")]
     public float coffeeFinalPosition = 0f;
@@ -95,7 +96,7 @@ public class CoffeeTask : MonoBehaviour
                 Debug.Log("Coffee task COMPLETE");
             }
         }
-        else
+        else if (!rememberPour)
         {
             pouringSeconds = 0f;
         }

@@ -103,6 +103,9 @@ public class ProgressTracker : MonoBehaviour
     public AudioClip fullWin;
 
     public AudioClip startupSound;
+    
+    public AudioClip trashAcceptSound;
+    public AudioClip trashRejectSound;
 
     void OnEnable()
     {
@@ -115,6 +118,18 @@ public class ProgressTracker : MonoBehaviour
         drawerB.OnCompleted += OnCompleteDrawer;
         
         runController.OnInteractionLockedChanged += OnInteractionLockedChanged;
+
+        trashTask.OnTrashAcceptReject += (accepted) =>
+        {
+            if (accepted)
+            {
+                chimeAudioSource.PlayOneShot(trashAcceptSound);
+            }
+            else
+            {
+                chimeAudioSource.PlayOneShot(trashRejectSound);
+            }
+        };
     }
 
     private void OnInteractionLockedChanged(bool obj)

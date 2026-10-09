@@ -70,6 +70,8 @@ public class TrashBinScorer : MonoBehaviour
         }
     }
 
+    public Action<bool> OnTrashAcceptReject;
+    
     // called when something enters the scorecollider
     void OnTriggerEnter(Collider other)
     {   
@@ -81,8 +83,8 @@ public class TrashBinScorer : MonoBehaviour
         var data = rb.GetComponent<TrashItemThrowData>();
         if (!data || counted.Contains(data))
         {
-            indicate.SetInteger(State, STATUS_UNKNOWN);
-            resetStateAfter = Time.time + leaveAnim / 2;
+            // indicate.SetInteger(State, STATUS_UNKNOWN);
+            // resetStateAfter = Time.time + leaveAnim / 2;
             return;
         }
         
@@ -98,11 +100,13 @@ public class TrashBinScorer : MonoBehaviour
             counted.Add(data);
             Debug.Log($"Trash: SCORE #{score} (speed {speed:F1}, dist {dist:F2}, t {since:F1}s)");
             indicate.SetInteger(State, STATUS_SCORE);
+            OnTrashAcceptReject?.Invoke(true);
         }
         else
         {
             Debug.Log($"Trash: rejected (speed {speed:F1}, dist {dist:F2}, t {since:F1}s, down {downward})");
             indicate.SetInteger(State, STATUS_REJECT);
+            OnTrashAcceptReject?.Invoke(false);
         }
         resetStateAfter = Time.time + leaveAnim;
 
